@@ -20,6 +20,7 @@
     <meta name="twitter:description" content="Portafolio de Manuel Guardiola: desarrollo web, diseño de experiencias digitales y proyectos publicados." />
     <meta name="twitter:image" content="https://nachoguardiola.github.io/foto.png" />
     <title>Manuel Guardiola | Desarrollador web</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -58,7 +59,10 @@
   <body>
     <header class="hero">
       <nav class="nav">
-        <a href="#inicio" class="brand">Manuel Guardiola</a>
+        <a href="#inicio" class="brand" aria-label="Inicio - Manuel Guardiola">
+          <span class="brand-mark" aria-hidden="true">MG</span>
+          <span>Manuel Guardiola</span>
+        </a>
         <div class="nav-actions">
           <button class="language-toggle" id="language-toggle" type="button" aria-label="Cambiar a inglés" title="Change to English">EN</button>
           <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-navigation">
